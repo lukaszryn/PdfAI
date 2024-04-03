@@ -2,6 +2,9 @@
 ## Wprowadzenie
 PDF AI to innowacyjne rozwiązanie wykorzystujące najnowsze osiągnięcia w dziedzinie sztucznej inteligencji i uczenia maszynowego do analizy, ekstrakcji i przetwarzania danych z dokumentów PDF. Nasz system jest przeznaczony do wspierania szerokiego spektrum zastosowań biznesowych, od automatycznego przetwarzania faktur po analizę dokumentów prawnych, ułatwiając operacje, zwiększając efektywność i dokładność przetwarzania danych.
 
+Użytkownicy mogą komunikować się ze swoimi dokumentami PDF za pośrednictwem czatu z Pdf AI, rozwiązaniem opartym na sztucznej inteligencji. Produktem opartym na sztucznej inteligencji, który koncentruje się na zarządzaniu i automatyzacji zadań związanych z plikami PDF, jest format PDF.
+
+Przetłumaczono z DeepL.com (wersja darmowa)
 ## Cechy
 Ekstrakcja tekstu i danych: Precyzyjna identyfikacja i ekstrakcja tekstu, tabel oraz obrazów z dokumentów PDF.
 Przetwarzanie w czasie rzeczywistym: Szybka i efektywna analiza dokumentów w czasie rzeczywistym.
