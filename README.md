@@ -1,49 +1,36 @@
 # PdfAI
-## Wprowadzenie
-PDF AI to innowacyjne rozwiązanie wykorzystujące najnowsze osiągnięcia w dziedzinie sztucznej inteligencji i uczenia maszynowego do analizy, ekstrakcji i przetwarzania danych z dokumentów PDF. Nasz system jest przeznaczony do wspierania szerokiego spektrum zastosowań biznesowych, od automatycznego przetwarzania faktur po analizę dokumentów prawnych, ułatwiając operacje, zwiększając efektywność i dokładność przetwarzania danych.
 
-Użytkownicy mogą komunikować się ze swoimi dokumentami PDF za pośrednictwem czatu z Pdf AI, rozwiązaniem opartym na sztucznej inteligencji. Produktem opartym na sztucznej inteligencji, który koncentruje się na zarządzaniu i automatyzacji zadań związanych z plikami PDF, jest format PDF.
-
-Przetłumaczono z DeepL.com (wersja darmowa)
-## Cechy
-Ekstrakcja tekstu i danych: Precyzyjna identyfikacja i ekstrakcja tekstu, tabel oraz obrazów z dokumentów PDF.
-Przetwarzanie w czasie rzeczywistym: Szybka i efektywna analiza dokumentów w czasie rzeczywistym.
-Bezpieczeństwo danych: Zaawansowane protokoły bezpieczeństwa zapewniające ochronę przetwarzanych informacji.
-Skalowalność: Elastyczność systemu umożliwia obsługę rosnącej liczby dokumentów.
-Integracja z systemami zewnętrznymi: Łatwa integracja z istniejącymi systemami zarządzania dokumentami.
-Wizualizacja danych: Intuicyjne prezentacje wyników ekstrakcji dla łatwej interpretacji i analizy.
-
-## Użyte Technologie w Projekcie PDF AI
-Projekt PDF AI wykorzystuje zaawansowane technologie sztucznej inteligencji i uczenia maszynowego do przetwarzania dokumentów PDF. Kluczowym elementem naszego systemu jest wykorzystanie Konwolucyjnych Sieci Neuronowych (CNN), TensorFlow i Keras do analizy i ekstrakcji danych z dokumentów PDF. Poniżej szczegółowo opisujemy, jak te technologie są wykorzystywane w naszym projekcie.
-
-### Konwolucyjne Sieci Neuronowe (CNN)
-CNN to rodzaj głębokich sieci neuronowych, które są szczególnie skuteczne w analizie wizualnej danych. W projekcie PDF AI, CNN wykorzystywane są do:
-
-### Rozpoznawania Tekstu i Obrazów: CNN doskonale radzą sobie z rozpoznawaniem wzorców w danych wizualnych, co pozwala na efektywną identyfikację i ekstrakcję tekstu, obrazów oraz tabel z dokumentów PDF.
-Klasyfikacji Elementów Dokumentu: Dzięki zdolnościom CNN do klasyfikacji, system jest w stanie rozróżnić różne typy zawartości w dokumentach, takie jak nagłówki, akapity, przypisy.
-TensorFlow
-TensorFlow to otwarta platforma do uczenia maszynowego opracowana przez Google, która oferuje wszechstronne narzędzia i biblioteki do budowy i trenowania modeli ML. W PDF AI, TensorFlow jest wykorzystywany do:
-
-### Tworzenia i Trenowania Modeli CNN: TensorFlow dostarcza potężnych narzędzi do projektowania, trenowania i wdrażania modeli CNN, które są kluczowe dla naszego systemu.
-Optymalizacji Wydajności: Zaawansowane możliwości TensorFlow w zakresie przetwarzania równoległego i automatycznej optymalizacji kodu pozwalają na szybkie przetwarzanie dużej ilości dokumentów PDF.
-Keras
-Keras to interfejs programowania aplikacji (API) wysokiego poziomu dla sieci neuronowych, który działa na szczycie TensorFlow. Jest używany w PDF AI ze względu na:
-
-### Prostotę i Elastyczność: Keras ułatwia projektowanie i testowanie modeli CNN dzięki swojej czytelnej i kompaktowej składni.
-Szybkie Prototypowanie: Dzięki Keras możemy szybko eksperymentować z różnymi architekturami sieci, co jest kluczowe dla optymalizacji procesu ekstrakcji danych z PDF.
-Integracja CNN, TensorFlow i Keras
-W projekcie PDF AI, integracja CNN, TensorFlow i Keras pozwala na stworzenie potężnego systemu zdolnego do przetwarzania złożonych dokumentów PDF w różnorodnych warunkach. Dzięki tej integracji, system może nie tylko precyzyjnie identyfikować i ekstrahować dane, ale również uczyć się i adaptować do nowych wzorców i formatów dokumentów, co zapewnia jego wysoką dokładność i elastyczność.
-
-Wdrożenie tych technologii stanowi o sile projektu PDF AI, umożliwiając mu przekształcanie statycznych dokumentów PDF w strukturyzowane i łatwe do analizy zbiory danych.
-
-### Rozszerzona Analiza Semantyczna:
-PDF AI wykorzystuje również technologie przetwarzania języka naturalnego (NLP) do rozszerzonej analizy semantycznej tekstów zawartych w dokumentach PDF. Pozwala to na głębsze zrozumienie kontekstu i znaczenia tekstu, co jest szczególnie użyteczne w przypadkach, gdy konieczna jest interpretacja zawartości, na przykład w analizie dokumentów prawnych lub badaniu raportów finansowych. Zaawansowane modele NLP umożliwiają rozpoznawanie zależności semantycznych, co dodatkowo zwiększa wartość informacyjną przetwarzanych danych.
-
-### Współpraca i Integracja:
-PDF AI jest zaprojektowany z myślą o łatwej integracji z innymi systemami i platformami, takimi jak systemy zarządzania treścią, platformy analityczne czy narzędzia do zarządzania relacjami z klientami (CRM). Dzięki temu, dane wyekstrahowane z dokumentów PDF mogą być bezproblemowo przesyłane do innych systemów, wspierając procesy biznesowe i decyzyjne w organizacji. Integracja ta wspiera również współpracę międzydziałową, umożliwiając łatwy dostęp i wymianę informacji.
+### Introduction
+PDF AI is an advanced platform that implements the latest advances in artificial intelligence (AI) and machine learning (ML) to analyse, extract and process information from PDF documents. Through the use of innovative technologies, PDF AI streamlines a variety of business processes - from automated invoice processing to detailed analysis of legal documents - improving processing efficiency and accuracy.
+Users can interact with PDF documents through dialogue with PDF AI, allowing them to manage and automate PDF-related tasks in a simple and intuitive way.
 
 
-### Przyszłościowa Platforma
-Rozwój technologii AI i ML postępuje w zawrotnym tempie, a PDF AI jest zaprojektowany tak, aby być na czele tego postępu. Dzięki modułowej konstrukcji i łatwości integracji z nowymi technologiami, PDF AI jest gotowy na przyszłe innowacje w dziedzinie sztucznej inteligencji, co zapewnia użytkownikom dostęp do najnowszych narzędzi i możliwości, które będą kształtować przyszłość przetwarzania dokumentów.
+### Key Features
+Text and Data Extraction: PDF AI accurately identifies and extracts text, tables and images from PDF documents.
+Real-Time Processing: Enables rapid analysis of documents in real time.
+Data Security: Implements advanced security protocols to protect the information being processed.
+Scalability: Adapts to handle more documents without compromising performance.
+Integration with External Systems: Enables easy integration with existing document management systems.
+Data Visualisation: Presents extraction results in an intuitive way that facilitates interpretation and analysis.
 
-Podsumowując, PDF AI reprezentuje nową generację narzędzi do zarządzania dokumentacją, która wykorzystuje moc sztucznej inteligencji do transformacji procesów biznesowych. Dzięki swojej wszechstronności, skalowalności i zaawansowanym funkcjom, PDF AI stanowi kluczowe narzędzie dla przedsiębiorstw dążących do maksymalizacji efektywności operacyjnej i strategicznego wykorzystania danych.
+
+### Technologies used
+PDF AI uses Convolutional Neural Networks (CNNs), TensorFlow and Keras for efficient data analysis and extraction.
+Convolutional Neural Networks (CNNs):
+Are used to recognise text and images and classify document elements for accurate data extraction.
+TensorFlow:
+This is a machine learning platform developed by Google, used in PDF AI to create, train and deploy CNN models. It offers advanced parallel processing and automation capabilities to speed up document processing.
+
+
+### Keras
+High-level API running on TensorFlow, used for its simplicity and flexibility in designing CNN models. Allows rapid prototyping and experimentation with different network architectures.
+Extended Semantic Analysis:
+PDF AI also uses natural language processing (NLP) techniques to gain a deeper understanding of the context and meaning of texts, which is crucial when analysing documents with complex content.
+Collaboration and Integration:
+The platform has been designed for easy integration with other systems, enabling seamless data transfer to content management tools, analytics platforms or CRM systems, supporting decision-making processes in organisations.
+
+
+### Future-proof platform
+PDF AI is prepared for future innovations in AI, thanks to its modular design and ease of integration with new technologies, providing access to the latest AI and ML tools.
+Additionally, PDF AI integrates advanced sentiment analysis and speech recognition algorithms, opening up new possibilities for document interaction and analysis. These additional features enable an even deeper understanding of document content, including text tone detection and speech-to-text processing, which can be used in a wide range of applications, from customer service to legal and financial analysis.
+In summary, PDF AI is a new generation of document management tools that harnesses the potential of artificial intelligence to revolutionise business processes, providing businesses with a tool to maximise operational efficiency and strategic use of information.
