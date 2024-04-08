@@ -4,6 +4,8 @@
 PDF AI is an advanced platform that implements the latest advances in artificial intelligence (AI) and machine learning (ML) to analyse, extract and process information from PDF documents. Through the use of innovative technologies, PDF AI streamlines a variety of business processes - from automated invoice processing to detailed analysis of legal documents - improving processing efficiency and accuracy.
 Users can interact with PDF documents through dialogue with PDF AI, allowing them to manage and automate PDF-related tasks in a simple and intuitive way.
 
+Interoperability and Customization: PDF AI is not only powerful but also highly adaptable, offering customizable workflows tailored to meet specific business needs. Whether it's automating the extraction of data from financial statements for a banking institution or processing medical records in healthcare, PDF AI can be fine-tuned to optimize accuracy and efficiency. This level of customization extends to its user interface, which can be configured to provide a user-friendly experience for individuals of varying technical expertise, making it accessible to a wider audience.
+
 
 ### Key Features
 Text and Data Extraction: PDF AI accurately identifies and extracts text, tables and images from PDF documents.
